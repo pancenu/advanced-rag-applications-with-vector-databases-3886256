@@ -7,3 +7,6 @@ philosophers/*
 .env
 
 chapter_2/indices/*
+
+chapter_2/faiss_index/*
+

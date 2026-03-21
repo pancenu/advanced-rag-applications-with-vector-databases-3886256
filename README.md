@@ -1,5 +1,5 @@
 # Advanced RAG Applications with Vector Databases
-This is the repository for the LinkedIn Learning course `Advanced RAG Applications with Vector Databases`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course `Advanced RAG Applications with Vector Databases`. The full course is available from [LinkedIn Learning][lil-course-url]. I (Leonado Prieto) did some modifications for my own use, because I have not open ai subscription.
 
 ![lil-thumbnail-url]
 
@@ -26,4 +26,14 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [lil-course-url]: https://www.linkedin.com/learning/advanced-rag-applications-with-vector-databases
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQFonI7LTbFo_g/learning-public-crop_675_1200/learning-public-crop_675_1200/0/1727723235646?e=2147483647&v=beta&t=KcI1L2PD0dAs_AAGyJoMpneLG2Xb_HqAeue6F65UDHM
+
+## My modifications (Leonardo Prieto):
+
+- I only use one conda environment (environment.yml) for all the course.
+- I Adapted the code to use google model ("gemini-2.5-flash" instead of "gpt-4o-mini")
+- I left the OpenAI lines commented to locate the changes.
+- I use the .env file with my google api key in each chapther folder. 
+  .env contents:
+
+GOOGLE_API_KEY=my_google_api_key
 
